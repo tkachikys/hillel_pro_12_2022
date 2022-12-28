@@ -11,11 +11,12 @@ class DigitalCounter:
             return "end of count"
 
     def get_current_value(self):
-        print(self.current)
+        return self.current
 
 
 count = DigitalCounter()
 count.increase()
 count.increase()
 count.increase()
-count.get_current_value()
+a = count.get_current_value()
+print(a)
